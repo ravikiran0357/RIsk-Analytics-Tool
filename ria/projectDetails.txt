@@ -59,6 +59,8 @@ method1:-
 method2:- 
  1. git checkout -b <new branch name>
 
+ process:- clone ->  create branch-> pointing to new branch -> commit and push  -> review the code -> merge branch -> delete the branch -> pointing to main
+
 
 Project structure creation:-
 ----------------------------
