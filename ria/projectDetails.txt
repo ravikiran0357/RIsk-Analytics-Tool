@@ -52,6 +52,12 @@ git push
 Git Branch and commit:-
 ----------------------
 
+method1:- 
+ 1. git branch <new branch name>
+ 2. git checkout <new branch name>
+
+method2:- 
+ 1. git checkout -b <new branch name>
 
 
 Project structure creation:-
