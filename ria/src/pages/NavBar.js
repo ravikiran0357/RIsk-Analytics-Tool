@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import image from '../asserts/MicrosoftTeams.png';
+import HomePage from './homePage';
 import { Divider } from '@mui/material';
 import './home.css';
 
@@ -30,9 +30,8 @@ function Home()
   };
   const darkTheme = createTheme({
     palette: {
-      mode: 'dark',
       primary: {
-        main: '#1976d2',
+        main: '#000000',
       },
     },
   });
@@ -139,19 +138,9 @@ function Home()
           
         </Toolbar>
       </Container>
-    </AppBar>
-    {/* <Box >
-    <Typography sx={{my: 10,fontSize: '40px',fontFamily: 'Arial, sans-serif', backgroundColor :'black' ,color :'white',fontWeight: 'bold'}}>
-         Take an Intelligent <br></br>
-        Approach to Risk with RIA.  
-    </Typography>
-    <Box sx={{display:{xs:'none' , md:'flex'}}}>
-        <img  width ='500px'src={image}/>
-    </Box>
-    </Box> */}
-    </ThemeProvider>
-    
-   
+    </AppBar> 
+    </ThemeProvider>   
+    <HomePage></HomePage>
     </>
   );
 }

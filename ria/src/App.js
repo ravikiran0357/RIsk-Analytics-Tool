@@ -1,6 +1,6 @@
 
 import './App.css';
-import Home from './pages/home';
+import Home from './pages/NavBar';
 import React from 'react';
 
 function App() {
