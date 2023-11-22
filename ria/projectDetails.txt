@@ -71,7 +71,8 @@ commands:-
 4. material UI:-
         1. npm install @mui/material @emotion/react @emotion/styled
         2. npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-
+5. routers:
+       npm install react-router-dom        
 
 
 
@@ -90,5 +91,7 @@ material UI componets used:-
 11. tooltip:- display informative text when users hover over, focus on, or tap an element.
 12. MenuItem:- menu list items
 13. Stack :- layout
+14. Avatar :- image
+15. Grid:- layout
 
           

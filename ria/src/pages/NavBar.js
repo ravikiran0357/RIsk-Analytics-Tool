@@ -10,9 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import HomePage from './homePage';
-import { Divider } from '@mui/material';
-import './home.css';
+
 
 
 function Home()
@@ -39,7 +37,7 @@ function Home()
   return (
     <>
     <ThemeProvider theme={darkTheme}>
-    <AppBar >
+    <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
             {/* used for desktop  */}
@@ -58,8 +56,6 @@ function Home()
           >
             Deloitte
           </Typography>
-          <Divider orientation="vertical" variant="middle" flexItem sx={{display:{xs:'none' , md:'flex'}}} />
-
           {/* menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -139,8 +135,7 @@ function Home()
         </Toolbar>
       </Container>
     </AppBar> 
-    </ThemeProvider>   
-    <HomePage></HomePage>
+    </ThemeProvider>
     </>
   );
 }
