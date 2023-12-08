@@ -2,10 +2,11 @@
 import './App.css';
 import Home from './pages/homePage';
 import React from 'react';
+import Registration from './pages/registration';
 
 function App() {
   return(<>
-   <Home></Home>
+    <Registration></Registration>
   </>)
 }
 

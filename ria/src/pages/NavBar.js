@@ -54,8 +54,11 @@ function Home()
               textDecoration: 'none',
             }}
           >
+            
             Deloitte
+           
           </Typography>
+          
           {/* menu */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
